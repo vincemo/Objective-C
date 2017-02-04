@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4687ACB01E45BE32009E2CA0 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687ACAF1E45BE32009E2CA0 /* MyClass.m */; };
+		4687ACB31E45BE50009E2CA0 /* MySubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687ACB21E45BE50009E2CA0 /* MySubClass.m */; };
+		4687ACB61E45CDEF009E2CA0 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687ACB51E45CDEF009E2CA0 /* Printer.m */; };
+		4687ACB91E45CE38009E2CA0 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687ACB81E45CE38009E2CA0 /* ColorPrinter.m */; };
+		4687ACBC1E45CE56009E2CA0 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687ACBB1E45CE56009E2CA0 /* BlackPrinter.m */; };
 		46F76A831E37430C003B3E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F76A821E37430C003B3E5A /* main.m */; };
+		46F76A8B1E3A308F003B3E5A /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F76A8A1E3A308F003B3E5A /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4687ACAE1E45BE32009E2CA0 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		4687ACAF1E45BE32009E2CA0 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		4687ACB11E45BE50009E2CA0 /* MySubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySubClass.h; sourceTree = "<group>"; };
+		4687ACB21E45BE50009E2CA0 /* MySubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySubClass.m; sourceTree = "<group>"; };
+		4687ACB41E45CDEF009E2CA0 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		4687ACB51E45CDEF009E2CA0 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		4687ACB71E45CE38009E2CA0 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		4687ACB81E45CE38009E2CA0 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		4687ACBA1E45CE56009E2CA0 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
+		4687ACBB1E45CE56009E2CA0 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
 		46F76A7F1E37430C003B3E5A /* test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F76A821E37430C003B3E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F76A891E3A308F003B3E5A /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		46F76A8A1E3A308F003B3E5A /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				46F76A821E37430C003B3E5A /* main.m */,
+				46F76A891E3A308F003B3E5A /* People.h */,
+				46F76A8A1E3A308F003B3E5A /* People.m */,
+				4687ACAE1E45BE32009E2CA0 /* MyClass.h */,
+				4687ACAF1E45BE32009E2CA0 /* MyClass.m */,
+				4687ACB11E45BE50009E2CA0 /* MySubClass.h */,
+				4687ACB21E45BE50009E2CA0 /* MySubClass.m */,
+				4687ACB41E45CDEF009E2CA0 /* Printer.h */,
+				4687ACB51E45CDEF009E2CA0 /* Printer.m */,
+				4687ACB71E45CE38009E2CA0 /* ColorPrinter.h */,
+				4687ACB81E45CE38009E2CA0 /* ColorPrinter.m */,
+				4687ACBA1E45CE56009E2CA0 /* BlackPrinter.h */,
+				4687ACBB1E45CE56009E2CA0 /* BlackPrinter.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -120,7 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4687ACB91E45CE38009E2CA0 /* ColorPrinter.m in Sources */,
+				4687ACB01E45BE32009E2CA0 /* MyClass.m in Sources */,
+				4687ACB31E45BE50009E2CA0 /* MySubClass.m in Sources */,
+				4687ACB61E45CDEF009E2CA0 /* Printer.m in Sources */,
+				46F76A8B1E3A308F003B3E5A /* People.m in Sources */,
 				46F76A831E37430C003B3E5A /* main.m in Sources */,
+				4687ACBC1E45CE56009E2CA0 /* BlackPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +285,7 @@
 				46F76A881E37430C003B3E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
